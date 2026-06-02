@@ -19,7 +19,13 @@ section{ width: 100%;}
 
 section.one{background-color: #21142c;}
 section.two{background-color: #1F2937;}
-section.four{background-color: rgb(196, 194, 194);}
+section.four{
+    background-color: rgb(212, 236, 213);
+    border: 2rem solid #cecdf5;
+    border-left: 0;
+    border-right: 0;
+}
+
 
 header,.container-one,.container-two,.container-three,.container-four,footer{
     max-width: 1200px;
@@ -47,7 +53,7 @@ nav{
 }
 
 .container-one{
-    padding: 35px 0;
+    padding: 60px 0;
     display: flex;
     color: #fff;
     justify-content: space-between;
@@ -90,13 +96,14 @@ nav{
 .container-two{
     flex-direction: column;
     align-items: center;
-    padding: 2rem 0;
+    padding: 3rem 0;
     gap: 2.5rem;
 }
 
 .container-two h2{
     font-size: 35px;
-    border-bottom: 2.5px solid #1F2937;
+    color: #48ff00;
+    border-bottom: 3px solid #c2c2c2;
 }
 
 .course img{
@@ -117,4 +124,20 @@ nav{
     text-align: center;
     gap: 1rem;
     max-width: 250px;
+}
+
+.container-three{
+    padding: 2rem 0;
+    font-style: italic;
+    text-align: center;
+    
+}
+.journey p{
+    padding-bottom: 1.5rem;
+}
+
+.sign{
+    text-align: right;
+    font-weight: 900;
+    font-style: normal;
 }
