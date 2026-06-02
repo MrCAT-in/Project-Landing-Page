@@ -15,7 +15,8 @@ a{text-decoration: none;}
 
 span{font-weight: bold;}
 
-section{ width: 100%;}
+section{ width: 100%;
+    padding: 0 1rem;}
 
 section.one, section.six{background-color: #21142c;}
 section.two{background-color: #1F2937;}
@@ -154,7 +155,7 @@ nav{
 
 .sign{
     text-align: right;
-    font-weight: 900;
+    font-weight: bold;
     font-style: normal;
 }
 
@@ -163,6 +164,7 @@ nav{
     margin: 0 auto;
     padding: 4rem 0;
 }
+
 .container-four{
 background-color: rgb(111, 79, 255);
 padding: 2rem 1rem;
